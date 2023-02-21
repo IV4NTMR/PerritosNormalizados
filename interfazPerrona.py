@@ -8,7 +8,7 @@ from pandas import pandas as pd
 #Leemos el csv con la información+
 errorDeLectura = True
 try:
-    dogData = pd.read_csv('datos_perros.csv')
+    dogData = pd.read_csv('datos_perrones.csv')
 except:
     errorDeLectura = False
 
